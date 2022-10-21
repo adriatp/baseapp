@@ -78,6 +78,8 @@ GEM
       reline (>= 0.3.1)
     erubi (1.11.0)
     ffi (1.15.5)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -196,6 +198,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  figaro
   importmap-rails
   jbuilder
   mongoid (~> 8.0, >= 8.0.2)
